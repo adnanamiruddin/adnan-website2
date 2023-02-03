@@ -14,27 +14,27 @@
         <h3>
             Adnan
         </h3>
-        <ul>
+        <ul class="list-name">
             <li>
-                <a href="">HOME</a>
+                <a onclick="contentClick(1)">HOME</a>
             </li>
             <li>
-                <a href="">ABOUT ME</a>
+                <a onclick="contentClick(2)">ABOUT ME</a>
             </li>
             <li>
-                <a href="">PROJECT</a>
+                <a onclick="contentClick(3)">PROJECT</a>
             </li>
             <li>
-                <a href="">PORTOFOLIO</a>
+                <a onclick="contentClick(4)">PORTOFOLIO</a>
             </li>
             <li>
-                <a href="">SERVICES</a>
+                <a onclick="contentClick(5)">SERVICES</a>
             </li>
             <li>
-                <a href="">CONTACT</a>
+                <a onclick="contentClick(6)">CONTACT</a>
             </li>
         </ul>
-        <ul>
+        <ul class="list-sosmed">
             <li>
                 <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
             </li>
@@ -48,9 +48,30 @@
                 <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
             </li>
         </ul>
+        <ion-icon class="burger-bar" name="list"></ion-icon>
+        <ul class="list-name-android">
+            <li>
+                <a class="tool-navbar" onclick="contentClick(1)">HOME</a>
+            </li>
+            <li>
+                <a class="tool-navbar" onclick="contentClick(2)">ABOUT ME</a>
+            </li>
+            <li>
+                <a class="tool-navbar" onclick="contentClick(3)">PROJECT</a>
+            </li>
+            <li>
+                <a class="tool-navbar" onclick="contentClick(4)">PORTOFOLIO</a>
+            </li>
+            <li>
+                <a class="tool-navbar" onclick="contentClick(5)">SERVICES</a>
+            </li>
+            <li>
+                <a class="tool-navbar" onclick="contentClick(6)">CONTACT</a>
+            </li>
+        </ul>
     </nav>
-    <header class="hero">
-        <h1>About <span>me</span></h1>
+    <header class="hero" id="content1">
+        <h1>Muh. <span>Adnan</span> Putra Amiruddin</h1>
         <p>A few words about Adnan</p>
         <ul>
             <li>
@@ -74,52 +95,57 @@
         </div>
     </header>
     <main>
-        <section class="section1">
+        <section class="section1" id="content2">
             <div class="section1-text">
-                <h2>A Few Words</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, laudantium optio alias aut nemo officiis, dolorum maiores id officia saepe similique nulla dolor fuga rem quaerat nobis eveniet est obcaecati voluptate provident ipsa? Eveniet quos repellat sapiente, nisi quam, iusto maxime vel aliquid exercitationem porro, atque architecto non dolor? Ab!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo ab quas accusantium earum cumque similique dolores veniam unde odit? Aliquid illo sequi blanditiis perspiciatis doloremque, illum saepe aspernatur explicabo molestiae, deleniti natus hic nemo molestias maiores error animi exercitationem sunt temporibus. Minus provident officiis voluptates?</p>
-                <img src="/images/section1-bottom.jpg" alt="Keyboard" style="width: 35vw; filter:brightness(100%);">
+                <div class="container-text">
+                    <h2>A Few Words</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, laudantium optio alias aut nemo officiis, dolorum maiores id officia saepe similique nulla dolor fuga rem quaerat nobis eveniet est obcaecati voluptate provident ipsa? Eveniet quos repellat sapiente, nisi quam, iusto maxime vel aliquid exercitationem porro, atque architecto non dolor? Ab!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo ab quas accusantium earum cumque similique dolores veniam unde odit? Aliquid illo sequi blanditiis perspiciatis doloremque, illum saepe aspernatur explicabo molestiae, deleniti natus hic nemo molestias maiores error animi exercitationem sunt temporibus. Minus provident officiis voluptates?</p>
+                    <img src="/images/section1-bottom.jpg" alt="Keyboard" style="width: 35%; filter:brightness(100%);">
+                </div>
             </div>
-            <img src="/images/section1.jpg" alt="Adnan 1" style="padding: 0px 15px;">
+            <div class="section1-img"></div>
         </section>
-        <section class="section2">
+        <section class="section2" id="content3">
             <div class="section2-text">
-                <h2>Hobby</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, laudantium optio alias aut nemo officiis, dolorum maiores id officia saepe similique nulla dolor fuga rem quaerat nobis eveniet est obcaecati voluptate provident ipsa? Eveniet quos repellat sapiente, nisi quam, iusto maxime vel aliquid exercitationem porro, atque architecto non dolor? Ab!</p>
-                <div>
-                    <div class="bar-container">
-                        <p class="title">NGODING</p>
-                        <div class="bar">
-                            <div class="bar-front" style="width: 75%;">
-                                <p class="percentage">75%</p>
+                <div class="container-text">
+                    
+                    <h2>Hobby</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, laudantium optio alias aut nemo officiis, dolorum maiores id officia saepe similique nulla dolor fuga rem quaerat nobis eveniet est obcaecati voluptate provident ipsa? Eveniet quos repellat sapiente, nisi quam, iusto maxime vel aliquid exercitationem porro, atque architecto non dolor? Ab!</p>
+                    <div>
+                        <div class="bar-container">
+                            <p class="title">NGODING</p>
+                            <div class="bar">
+                                <div class="bar-front" style="width: 75%;">
+                                    <p class="percentage">75%</p>
+                                </div>
+                                <div class="bar-back"></div>
                             </div>
-                            <div class="bar-back"></div>
                         </div>
-                    </div>
-                    <div class="bar-container">
-                        <p class="title">REFRESHING</p>
-                        <div class="bar">
-                            <div class="bar-front" style="width: 85%;">
-                                <p class="percentage">85%</p>
+                        <div class="bar-container">
+                            <p class="title">REFRESHING</p>
+                            <div class="bar">
+                                <div class="bar-front" style="width: 85%;">
+                                    <p class="percentage">85%</p>
+                                </div>
+                                <div class="bar-back"></div>
                             </div>
-                            <div class="bar-back"></div>
                         </div>
-                    </div>
-                    <div class="bar-container">
-                        <p class="title">OTOMOTIF</p>
-                        <div class="bar">
-                            <div class="bar-front" style="width: 35%;">
-                                <p class="percentage">35%</p>
+                        <div class="bar-container">
+                            <p class="title">OTOMOTIF</p>
+                            <div class="bar">
+                                <div class="bar-front" style="width: 35%;">
+                                    <p class="percentage">35%</p>
+                                </div>
+                                <div class="bar-back"></div>
                             </div>
-                            <div class="bar-back"></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <img src="/images/section2.jpg" alt="Adnan 2" style="padding: 0px 15px";>
+            <div class="section2-img"></div>
         </section>
-        <section class="section-features">
+        <section class="section-features" id="content4">
             <div class="feature">
                 <ion-icon name="logo-github"></ion-icon>
                 <h3>NGODING</h3>
@@ -136,7 +162,7 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt soluta fuga facere veritatis! Doloribus, dolore.</p>
             </div>
         </section>
-        <section class="photos">
+        <section class="photos" id="content5">
             <div class="title-container">
                 <h2>Adnan & Friends</h2>
             </div>
@@ -155,8 +181,9 @@
         </section>
         <section class="contact">
             <form class="contact-form" action="">
-                <input class="input" type="text" placeholder="Name">
-                <input class="input" type="email" placeholder="Email *">
+                <input class="input input-normal" type="text" placeholder="Name">
+                <input class="input input-normal" type="email" placeholder="Email *">
+                <input class="input input-normal" type="text" placeholder="Subject">
                 <textarea class="input" placeholder="Message" rows="4"></textarea>
                 <button type="submit">CONTACT ME</button>
             </form>
@@ -183,5 +210,6 @@
             <p>@Copyright 2023 Adnan Putra</p>
         </section>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
