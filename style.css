@@ -156,7 +156,7 @@ nav .list-name-android li a:hover {
 }
 
 .hero p {
-    font-size: 20px;
+    font-size: 13px;
     margin-bottom: 55px;
 }
 
@@ -446,6 +446,7 @@ nav .list-name-android li a:hover {
 
 .contact {
     padding: 50px 20px;
+    padding-top: 70px !important;
 }
 
 .contact-form {
