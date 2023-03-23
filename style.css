@@ -332,6 +332,10 @@ nav .list-name-android li a:hover {
     .section2 .section2-text {
         flex: 1;
     }
+    .section2 .section2-text .container-text {
+        padding: 50px 20px;
+        margin-top: 75px;
+    }
     .section2 .section2-img {
         flex: 1;
     }
@@ -374,6 +378,7 @@ nav .list-name-android li a:hover {
         justify-content: space-between;
         margin-top: 10px;
         padding: 120px 70px;
+        margin-top: -50px;
     }
 }
 
