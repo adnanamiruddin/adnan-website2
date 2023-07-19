@@ -147,7 +147,7 @@ nav .list-name-android li a:hover {
 }
 
 .hero h1 {
-    font-size: 4vw;
+    font-size: 4.5vw;
     margin-bottom: 20px;
 }
 
@@ -156,7 +156,6 @@ nav .list-name-android li a:hover {
 }
 
 .hero p {
-    font-size: 13px;
     margin-bottom: 55px;
 }
 
@@ -219,6 +218,10 @@ nav .list-name-android li a:hover {
 
 /* DESKTOP VIEW */
 @media only screen and (min-width: 1000px) {
+    .hero h1 {
+        font-size: 4vw;
+        margin-bottom: 20px;
+    }
     .section1 {
         display: flex;
     }
