@@ -534,6 +534,7 @@ nav .list-name-android li a:hover {
 .footer1 .footer1-head p {
     margin-top: 15px;
     letter-spacing: 0.5px;
+    line-height: 25px;
     width: 350px;
 }
 
