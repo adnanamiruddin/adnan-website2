@@ -6,7 +6,6 @@ const toolsNavbar = document.querySelectorAll('.tool-navbar');
 let openBurgerBar = false;
 
 burgerBar.addEventListener('click', () => {
-    // console.log('burgerBar');
     openBurgerBar = !openBurgerBar;
     if (openBurgerBar) {
         listNameAndroid.style.display = "block";
@@ -20,7 +19,6 @@ burgerBar.addEventListener('click', () => {
 });
 
 document.addEventListener('scroll', () => {
-    // console.log(window.scrollY);
     if (window.scrollY >= 667) {
         navBar.style.backgroundColor = "#f6f6f6";
         navBar.style.color = "rgb(40, 40, 40)";
@@ -36,7 +34,6 @@ document.addEventListener('scroll', () => {
 });
 
 const contentClick = (value) => {
-    // console.log(`content${value}`);
     const component = document.getElementById(`content${value}`);
     component.scrollIntoView({
         behavior: 'smooth'
@@ -44,15 +41,7 @@ const contentClick = (value) => {
     listNameAndroid.style.display = "none";
 };
 
-// toolsNavbar.forEach((tool) => {
-//     tool.addEventListener('click', () => {
-//         console.log(tool);
-//         openBurgerBar = false;
-//     })
-// });
-
 const scroll = () => {
-    // console.log('scroll');
     window.scrollTo({
         top: 0,
         behavior: 'smooth'
@@ -64,7 +53,6 @@ const scroll = () => {
     });
 };
 
-// setTimeout(() => scroll(), 100);
 scroll().then(window.scrollTo({
     top: 1,
     behavior: 'smooth'
