@@ -184,22 +184,6 @@ nav .list-name-android li a:hover {
     color: green;
 }
 
-.hero .bottom-icon {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 50px;
-}
-
-.hero .bottom-icon ion-icon {
-    font-size: 35px;
-    cursor: pointer;
-    /* font-size: 27px;
-    margin-right: 5px;
-    margin-left: 5px; */
-}
-
 /* .section1 img, .section2 img {
     filter: brightness(65%);
     width: 100%;
@@ -333,7 +317,7 @@ nav .list-name-android li a:hover {
         flex: 1;
     }
     .section2 .section2-text .container-text {
-        padding: 50px 20px;
+        padding: 30px 20px;
         margin-top: 75px;
     }
     .section2 .section2-img {
@@ -498,7 +482,7 @@ nav .list-name-android li a:hover {
 
 .contact-form button:hover {
     background-color: rgb(60, 60, 60);
-    box-shadow: none
+    box-shadow: none;
 }
 
 /* .contact-form input[type="text"], .contact-form input[type="email"] {
