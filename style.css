@@ -184,11 +184,6 @@ nav .list-name-android li a:hover {
     color: green;
 }
 
-/* .section1 img, .section2 img {
-    filter: brightness(65%);
-    width: 100%;
-} */
-
 .section1 {
     display: block;
 }
@@ -368,9 +363,8 @@ nav .list-name-android li a:hover {
     .section-features {
         display: flex;
         justify-content: space-between;
-        margin-top: 10px;
-        padding: 120px 40px;
-        margin-top: -50px;
+        margin-top: 5px;
+        padding: 90px 40px;
     }
 }
 
